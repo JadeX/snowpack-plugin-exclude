@@ -1,0 +1,20 @@
+{
+  "name": "@jadex/snowpack-plugin-exclude",
+  "description": "Snowpack plugin to exclude files from build folder while still allowing them to be watched for changes",
+  "version": "0.1.0",
+  "author": "Xeevis",
+  "homepage": "https://github.com/jadex/snowpack-plugin-exclude",
+  "license": "MIT",
+  "main": "plugin.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jadex/snowpack-plugin-exclude.git"
+  },
+  "dependencies": {
+    "micromatch": "^4.0.4",
+    "path": "^0.12.7"
+  },
+  "peerDependencies": {
+    "snowpack": "^3.8.8"
+  }
+}
